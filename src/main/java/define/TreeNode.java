@@ -10,9 +10,12 @@ public class TreeNode {
         this.right = right;
         this.left = left;
     }
-
+    //发放构造方法
     public TreeNode(int val) {
         this.val = val;
+    }
+    public void getVal() {
+        System.out.println("你好");
     }
 }
 
